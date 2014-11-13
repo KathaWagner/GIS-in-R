@@ -44,3 +44,7 @@ data sets in the public domain.
 The R directory '.../library/PBSmapping/doc' offers a complete user's
 guide PBSmapping-UG.pdf, which should be consulted to use all functions in
 the package effectively.
+
+Package ‘raster’:
+Reading, writing, manipulating, analyzing and modeling of gridded spatial data. The pack-
+age implements basic and high-level functions. Processing of very large files is supported

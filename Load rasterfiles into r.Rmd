@@ -1,0 +1,28 @@
+
+---
+title: "Basic GIS functions in R"
+author: "Simon"
+date: "13 November 2014"
+output: pdf_document
+---
+
+##Loading files (raster and shape)
+
+###Loading a rasterfile (.tif) into R
+In order to load rasterfiles into R, the raster package is required. In this example, we first set a working directory and then used the raster() function to load and store the Cambodia tarrain elevation file as raster. 
+
+```{r require libraries and WD, message=FALSE , echo=TRUE}
+require(raster)
+setwd("/Users/Simon/Studium/MSC/Best Practice in R/Cambodia Practice/")
+ElevKH<- raster('elevationkleinclass_utm.tif')
+```
+We then used plot() to visualise the raster.
+
+```{r, label=SRMT, echo=FALSE, message=FALSE}
+plot(ElevKH, sub="SRMT image of Cambodia", cex.sub=0.8)
+```
+
+
+
+
+

@@ -48,3 +48,11 @@ the package effectively.
 Package ‘raster’:
 Reading, writing, manipulating, analyzing and modeling of gridded spatial data. The pack-
 age implements basic and high-level functions. Processing of very large files is supported
+
+Package ‘adehabitat:
+The package adehabitat has been designed to allow the analysis of the space use by animals.
+This package is organised in four main parts: (i) management of raster maps, (ii) habitat selec-
+tion/ecological niche analysis, (iii) home range estimation and (iv) analysis of animals trajectories.
+These four parts interact with each other to facilitate the analysis. Note that adehabitat strongly
+relies on the package ade4, which provides numerous functions for the analysis of multivariate
+data

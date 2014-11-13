@@ -1,12 +1,12 @@
 GIS-in-R
 ========
 Basic GIS Functions include:
-	Transformation  (Adriano)
-	Reproject       (Adriano)
-	Buffer, Clip, Merge, Intersect, Dissolve, Extract, ect. (Adriano)
-	Raster calculator
-	Proximity Analysis and other Geostatistics
-	Maps, Maps, Maps
+	Transformation  (Adriano; Simon K)
+	Reproject       (Adriano; Simon K)
+	Buffer, Clip, Merge, Intersect, Dissolve, Extract, ect. (Adriano; Simon K)
+	Raster calculator (Katha; Simon S)
+	Proximity Analysis and other Geostatistics (Simon K; Adriano)
+	Maps, Maps, Maps (Katha; Simon S)
 	Traveling Salesman Problematic
 	edit Topology
 	join and relate tables
@@ -19,7 +19,7 @@ possible strugles include...:
 
 
 Can we...
-... build shapes in R? (other than Points and Poly-Lines)
+... build shapes in R? (other than Points and Poly-Lines) (Katha; Simon S)
 ... design Geodatabses?
 ... construct workflows for specific tasks?
 ... create output readable in Arc- or QGIS?

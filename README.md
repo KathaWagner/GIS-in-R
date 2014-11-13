@@ -58,28 +58,6 @@ relies on the package ade4, which provides numerous functions for the analysis o
 data
 
 
-kurzer test, nur für adri:
----
-title: "Loading Spatial Data"
-author: "Du"
-date: "Thursday, November 13, 2014"
-output: html_document
----
 
-To load in shapefiles, we use the readOGR function in the rgdal-package
-
-
-```{r, eval=FALSE}
-install.packages("rgdal")
-library(rgdal)
-require(rgdal)
-```
-
-
-From the help: "If reading a shapefile, the data source name (dsn = argument) is the folder (directory) where the shapefile is, and the layer is the name of the shapefile (without the .shp extension)." For example to read bounds.shp from C:/Maps, do map <- readOGR(dsn="C:/Maps", layer="bounds")."
-
-```{r, eval=TRUE}
-map <- readOGR(dsn="C:/Users/de.student/Desktop/KHM_adm", layer="KHM_adm0")
-```
 
 

@@ -1,0 +1,33 @@
+---
+title: "Loading Spatial Data"
+author: "Du"
+date: "Thursday, November 13, 2014"
+output: html_document
+---
+
+To load in shapefiles, we use the readOGR function in the rgdal-package.
+NOTE: Does not work on Simon Ks MAC.
+
+
+```{r, eval=FALSE, message=FALSE}
+install.packages("rgdal")
+library(rgdal)
+```
+
+
+```{r,echo=FALSE, eval=TRUE, message=FALSE}
+library(rgdal)
+```
+
+
+From the help: "If reading a shapefile, the data source name (dsn = argument) is the folder (directory) where the shapefile is, and the layer is the name of the shapefile (without the .shp extension)." For example to read bounds.shp from C:/Maps, do map <- readOGR(dsn="C:/Maps", layer="bounds")."
+
+```{r, eval=TRUE, message=FALSE}
+map <- readOGR(dsn="C:/Users/Kukuxumusu/Documents/Studium/WS 2014_2015/Best practise R/KHM_adm", layer="KHM_adm0")
+```
+```{r, eval=TRUE, message=FALSE}
+plot(map)
+```
+
+If the shapefile lies within the current working directors (setwd), it would be possible to just write readOGR(".","KHM_adm0").
+

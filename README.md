@@ -24,6 +24,9 @@ Can we...
 ... construct workflows for specific tasks?
 ... create output readable in Arc- or QGIS?
 
+Usefuls URLs:
+http://shiny.rstudio.com/articles/rmarkdown.html (explains basic markdown functions)
+
 
 Usable Packages:
 
